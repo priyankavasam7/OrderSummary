@@ -103,4 +103,10 @@ p{
     .main{
         margin: 10% 5%;
     }
+    .middle{
+        padding: 3%;
+    }
+    .music{
+        margin-right: 1.5%;
+    }
 }

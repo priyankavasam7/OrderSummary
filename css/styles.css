@@ -81,6 +81,12 @@ p{
     .main{
         margin: 10% 20%;
     }
+    .middle{
+        padding: 3%;
+    }
+    .music{
+        margin-right: 1.5%;
+    }
 }
 
 @media only screen and (max-width:640px){

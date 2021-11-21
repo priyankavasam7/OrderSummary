@@ -67,21 +67,19 @@ p{
     color: hsl(224, 23%, 55%);
     line-height: 1.5rem;
 }
+
+
+@media only screen and (max-width:920px){
+    .main{
+        margin:10% 25%;
+    }
+}
 @media only screen and (max-width:768px){
     body{
         background-image:url("pattern-background-mobile.svg");
     }
     .main{
-        margin:10% 5%;
-    }
-}
-
-@media only screen and (max-width:375px){
-    body{
-        background-image:url("pattern-background-mobile.svg");
-    }
-    .main{
-        margin:10% 5%;
+        margin: 10% 20%;
     }
 }
 
@@ -90,9 +88,13 @@ p{
         margin:10% 15%;
     }
 }
-@media only screen and (max-width:920px){
+
+
+@media only screen and (max-width:375px){
+    body{
+        background-image:url("pattern-background-mobile.svg");
+    }
     .main{
-        margin:10% 25%;
+        margin: 10% 5%;
     }
 }
-

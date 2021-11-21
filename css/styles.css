@@ -7,6 +7,7 @@ body{
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
 }
 .btn{
     display: inline-block;
@@ -69,7 +70,7 @@ p{
 }
 
 
-/*@media only screen and (max-width:920px){
+@media only screen and (max-width:920px){
     .main{
         margin:10% 25%;
     }
@@ -77,6 +78,7 @@ p{
 @media only screen and (max-width:768px){
     body{
         background-image:url("pattern-background-mobile.svg");
+        font-size: 13px;
     }
     .main{
         margin: 10% 20%;
@@ -85,20 +87,22 @@ p{
         padding: 3%;
     }
     .music{
-        margin-right: 1.5%;
+        margin-right: 2%;
     }
+
 }
 
 @media only screen and (max-width:640px){
     .main{
         margin:10% 15%;
     }
-}*/
+}
 
 
 @media only screen and (max-width:375px){
     body{
         background-image:url("pattern-background-mobile.svg");
+        font-size: 13px;
     }
     .main{
         margin: 10% 5%;
@@ -107,6 +111,7 @@ p{
         padding: 3%;
     }
     .music{
-        margin-right: 1.5%;
+        margin-right: 2%;
     }
+
 }

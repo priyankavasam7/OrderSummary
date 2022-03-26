@@ -2,6 +2,8 @@
     margin: 0px;
 }
 body{
+    min-height:100vh;
+    overflow:hidden;
     background-image:url("pattern-background-desktop.svg");
     background-size: contain;
     background-repeat: no-repeat;
